@@ -1,17 +1,17 @@
 #include <iostream>
 using namespace std;
 
-// Cube: 1 argument
+
 double volume(double side) {
     return side * side * side;
 }
 
-// Cuboid: 3 arguments
+
 double volume(double length, double breadth, double height) {
     return length * breadth * height;
 }
 
-// Cylinder: 2 arguments
+
 double volume(double radius, double height) {
     return 3.14159 * radius * radius * height;
 }
